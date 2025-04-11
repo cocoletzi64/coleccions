@@ -38,4 +38,12 @@ public class Persona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
+
+    @Override
+    public String toString() {
+        return "numid=" + numid +
+                ", nombre= " + nombre + '\'' +
+                ", edad=" + edad;
+    }
 }
+
